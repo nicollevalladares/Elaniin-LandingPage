@@ -1,11 +1,29 @@
+@media only screen and (min-width: 992px) {
+    .navbar {
+        margin-top: 57px;
+        margin-left: 101px;
+    }
+}
+
 .foodies-link {
     font-family: 'Druk Text Wide Bold';
     font-size: 27px;
     line-height: 27px;
-    color: black;
+    margin-right: 86px;
+    width: 50%;
 }
 
-.foodies-link:after {
+.header-link {
+    font-family: 'Syne Bold';
+    font-size: 18px;
+    line-height: 22px;
+    position: relative;
+    z-index:1;
+    padding:2px 6px;
+    margin-right: 39px;
+}
+
+.header-link:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -18,13 +36,15 @@
     transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
   }
   
-.foodies-link:hover {
+  .header-link:hover:after {
     transform: scale(1);
+  }
+
+.navbar .navbar-collapse .nav-item .nav-link {
+    overflow-y: auto;
+    color: #000000;
 }
 
-.header-link {
-    font-family: 'Syne bold';
-    font-size: 18px;
-    line-height: 22px;
-    color: black;
+a:hover{
+    text-decoration: none;
 }
