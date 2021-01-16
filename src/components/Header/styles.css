@@ -1,0 +1,30 @@
+.foodies-link {
+    font-family: 'Druk Text Wide Bold';
+    font-size: 27px;
+    line-height: 27px;
+    color: black;
+}
+
+.foodies-link:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #FFD600;
+    content: "";
+    transform: scale(0);
+    transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
+  }
+  
+.foodies-link:hover {
+    transform: scale(1);
+}
+
+.header-link {
+    font-family: 'Syne bold';
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
