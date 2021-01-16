@@ -1,0 +1,85 @@
+/* Druk Text Wide Font */
+@font-face {
+    font-family: "Druk Text Wide Bold";
+    src: local("Druk Text Wide Bold"),
+    url(../fonts/DrukTextWide/DrukTextWide-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Druk Text Wide Bold Italic";
+    src: local("Druk Text Wide Bold Italic"),
+    url(../fonts/DrukTextWide/DrukTextWide-BoldItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Druk Text Wide Heavy";
+    src: local("Druk Text Wide Heavy"),
+    url(../fonts/DrukTextWide/DrukTextWide-Heavy.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Druk Text Wide Heavy Italic";
+    src: local("Druk Text Wide Heavy Italic"),
+    url(../fonts/DrukTextWide/DrukTextWide-HeavyItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Druk Text Wide Medium";
+    src: local("Druk Text Wide Medium"),
+    url(../fonts/DrukTextWide/DrukTextWide-Medium.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Druk Text Wide Medium Italic";
+    src: local("Druk Text Wide Medium Italic"),
+    url(../fonts/DrukTextWide/DrukTextWide-MediumItalic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Druk Text Wide Super";
+    src: local("Druk Text Wide Super"),
+    url(../fonts/DrukTextWide/DrukTextWide-Super.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Druk Text Wide Super Italic";
+    src: local("Druk Text Wide Super Italic"),
+    url(../fonts/DrukTextWide/DrukTextWide-SuperItalic.ttf) format("truetype");
+  }
+
+  /* Syne Font */
+  @font-face {
+    font-family: "Syne Bold";
+    src: local("Syne Bold"),
+    url(../fonts/Syne/Syne-Bold.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Syne Extra";
+    src: local("Syne Extra"),
+    url(../fonts/Syne/Syne-Extra.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Syne Italic";
+    src: local("Syne Italic"),
+    url(../fonts/Syne/Syne-Italic.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Syne Mono";
+    src: local("Syne Mono"),
+    url(../fonts/Syne/Syne-Mono.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Syne";
+    src: local("Syne"),
+    url(../fonts/Syne/Syne-Regular.ttf) format("truetype");
+  }
+
+  @font-face {
+    font-family: "Syne Variable";
+    src: local("Syne Variable"),
+    url(../fonts/Syne/Syne-variable.ttf) format("truetype");
+  }
