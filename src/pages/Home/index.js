@@ -1,4 +1,5 @@
 import Adds from "../../components/Adds/Adds.vue"
+import About from "../../components/About/About.vue"
 
 export default {
     name: 'Home',
@@ -11,6 +12,7 @@ export default {
         }
     },
     components: {
-        Adds
+        Adds,
+        About
     }
 }
