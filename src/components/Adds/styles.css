@@ -42,7 +42,6 @@
 
 .adds-container {
     padding-left: 101px;
-    padding-right: 101px;
 }
 
 .burger {
@@ -57,9 +56,6 @@
         font-size: 40px;
         width: 375px;
     }
-    .description-text {
-        width: 298px;
-    }
 }
 
 .yellow-shape {
@@ -67,11 +63,15 @@
     right: 0;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
     .yellow-shape {
         width: 65%;
         top: -70px;
         right: -20px;
+    }
+
+    .description-text {
+        width: 298px;
     }
 }
 
@@ -82,6 +82,12 @@
 }
 
 @media only screen and (max-width: 1200px) {
+    .yellow-shape {
+        width: 58%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
     .yellow-shape {
         width: 58%;
     }

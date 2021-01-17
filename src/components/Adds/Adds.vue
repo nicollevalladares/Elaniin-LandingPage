@@ -1,6 +1,6 @@
 <template>
     <section class="pt-5">
-        <img class="position-absolute yellow-shape" src="@/assets/YellowShape.svg">
+        <!-- TODO: Add yellow shape -->
         <div class="container-fluid adds-container">
             <div class="row align-items-center">
                 <div class="col-xs-12 col-md-6 col-lg-6 order-md-first">
@@ -16,8 +16,8 @@
                         <a class="link-text" href="/">{{homeData.link}} <ArrowRight /> </a>
                     </div>
                 </div>
-                <div class="col-xs-12 col-md-6 col-lg-6 position-relative order-sm-first">
-                    <img class="burger" src="@/assets/hero_hamburger.png">
+                <div class="col-xs-12 col-md-6 col-lg-6 position-relative order-sm-first order-xs-first">
+                    <img class="burger" src="@/assets/AddsAssets/Hamburger.png">
                 </div>
             </div>
         </div>
