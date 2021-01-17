@@ -1,8 +1,8 @@
 <template>
     <div>
-       <Adds v-bind:data="data" />
-       <About />
-       <!-- <Location /> -->
+        <Adds v-bind:data="data" />
+        <About />
+        <Location />
     </div>
 </template>
 
