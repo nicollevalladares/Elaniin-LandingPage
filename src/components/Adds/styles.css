@@ -2,11 +2,8 @@
     color: #000000;
     font-family: 'Druk Text Wide Bold';
     font-size: 60px;
-    line-height: 60px;
+    line-height: 1;
     width: 579px;
-    height: 180px;
-    left: 102px;
-    top: 267px;
 }
 
 .text .char {
@@ -48,6 +45,44 @@
     padding-right: 101px;
 }
 
-.shapes-add {
-    align-self: self-start;
+.burger {
+    height: 500px;
+}
+
+@media only screen and (min-width: 768px) {
+    .burger {
+        height: 400px;
+    }
+    .text {
+        font-size: 40px;
+        width: 375px;
+    }
+    .description-text {
+        width: 298px;
+    }
+}
+
+.yellow-shape {
+    top: -285px;
+    right: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    .yellow-shape {
+        width: 65%;
+        top: -70px;
+        right: -20px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .yellow-shape {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .yellow-shape {
+        width: 58%;
+    }
 }
