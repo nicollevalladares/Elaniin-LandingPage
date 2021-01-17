@@ -1,6 +1,7 @@
 <template>
     <div>
        <Adds v-bind:homeData="homeData" />
+       <About />
     </div>
 </template>
 

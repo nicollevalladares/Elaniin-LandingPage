@@ -1,0 +1,40 @@
+.foodies-text {
+  font-family: 'Syne Bold';
+  font-size: 22px;
+  color: #000000;
+}
+
+.about-section {
+  position: relative;
+  text-align: right;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 40px;
+}
+
+.about-text {
+  color: #ffffff;
+  font-family: 'Druk Text Wide Bold';
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.yellow {
+  color:  #FFD600;
+}
+
+.about-background{
+  background-image: url("../../assets/AboutAssets/rope.svg");
+  background-repeat: no-repeat;
+}
+
+.about-description {
+    font-family: 'Open Sans Regular';
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 21px;
+}
