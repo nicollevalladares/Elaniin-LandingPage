@@ -1,9 +1,14 @@
 .text {
     color: #000000;
     font-family: 'Druk Text Wide Bold';
-    font-size: 60px;
+    font-size: 35px;
     line-height: 1;
-    width: 579px;
+}
+
+@media only screen and (min-width: 768px), screen and (max-width: 992px) {
+    .text {
+        font-size: 45px;
+    }
 }
 
 .text .char {
@@ -29,7 +34,6 @@
     font-size: 18px;
     line-height: 25px;
     color: rgba(0, 0, 0, 0.4);
-    width: 498px;
     margin-top: 21px;
 }
 
@@ -40,43 +44,21 @@
     text-decoration: none;
 }
 
-.adds-container {
+/* .adds-container {
     padding-left: 101px;
     padding-right: 101px;
-}
+} */
 
-.burger {
-    height: 500px;
-}
-
-.padding-adds {
-    padding-top: 10rem;
-}
-
-@media only screen and (min-width: 768px) {
-    .burger {
-        height: 400px;
-    }
-    .text {
-        font-size: 40px;
-        width: 375px;
-    }
-}
-
-.yellow-shape {
+/* .yellow-shape {
     top: -285px;
     right: 0;
-}
+} */
 
-@media only screen and (max-width: 992px) {
+/* @media only screen and (max-width: 992px) {
     .yellow-shape {
         width: 65%;
         top: -70px;
         right: -20px;
-    }
-
-    .description-text {
-        width: 298px;
     }
 }
 
@@ -96,4 +78,4 @@
     .yellow-shape {
         width: 58%;
     }
-}
+} */

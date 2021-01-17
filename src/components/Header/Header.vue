@@ -1,34 +1,38 @@
 <template>
-    <div>
-        <nav class="navbar p-0 header navbar-expand-lg navbar-light">
-            <router-link class="d-lg-none navbar-brand" to="/">
-                <span v-bind:style="{ color: headerColor }"  class="nav-link p-0 foodies-link">Foodies</span>
-            </router-link>
-            <router-link class="d-none d-lg-block navbar-brand" to="/">
-                <span v-bind:style="{ color: headerColor }"  class="nav-link p-0 foodies-link">Foodies</span>
-            </router-link>      
-            <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#headerCollapse" aria-controls="headerCollapse" aria-expanded="false" aria-label="Toggle navigation">
-                <span v-bind:style="{ color: headerColor }" class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="headerCollapse">
-                <div class="dropdown-divider"></div>
-                <div class="navbar-nav">
-                    <router-link class="nav-item" to="/">
-                        <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Acerca De</span>
-                    </router-link>
-                    <router-link class="nav-item" to="/">
-                        <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Restaurantes</span>
-                    </router-link>
-                    <router-link class="nav-item" to="/menu">
-                        <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Menú</span>
-                    </router-link>
-                    <router-link class="nav-item" to="/">
-                        <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Contáctanos</span>
-                    </router-link>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light pt-5 pt-lg-5 pt-md-30 pt-sm-5 pl-lg-6 pl-md-40">
+        <router-link class="navbar-brand" to="/">
+            <span v-bind:style="{ color: headerColor }"  class="nav-link p-0 foodies-link">Foodies</span>
+        </router-link>
+        <button
+            class="navbar-toggler border-0 collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#headerCollapse"
+            aria-controls="headerCollapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+            <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div class="collapse navbar-collapse" id="headerCollapse">
+            <div class="navbar-nav">
+                <router-link class="nav-item ml-lg-40" to="/">
+                    <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Acerca de</span>
+                </router-link>
+                <router-link class="nav-item ml-lg-40" to="/">
+                    <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Restaurantes</span>
+                </router-link>
+                <router-link class="nav-item ml-lg-40" to="/menu">
+                    <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Menú</span>
+                </router-link>
+                <router-link class="nav-item ml-lg-40" to="/">
+                    <span v-bind:style="{ color: headerColor }"  class="header-link nav-link">Contáctanos</span>
+                </router-link>
             </div>
-        </nav>
-    </div>
+        </div>
+    </nav>
 </template>
 
 <script src="./index.js"></script>
