@@ -8,4 +8,8 @@ export const mutations = {
     setHeaderColor(state, color) {
         state.headerColor = color
     },
+    setLocations(state, locations) {
+        state.locations = [...locations.data]
+        state.selectedLocation = state.locations[0]
+    },
 };
