@@ -1,5 +1,6 @@
 import { MenuAPI } from "./api/menu"
 import { CategoriesAPI } from "./api/categories"
+import { LocationsAPI } from "./api/locations"
 
 export const actions = {
     async getMenuItems(context) {
@@ -12,5 +13,9 @@ export const actions = {
     },
     async changeHeaderColor(context, {color}) {
         context.commit('setHeaderColor', color)
+    },
+    async getLocations(context, {locationType}) {
+        let locations = await LocationsAPI.getLocations(locationType)
+        context.commit('setLocations', locations)
     },
 };

@@ -13,4 +13,4 @@
 </template>
 
 <script src="./index.js"></script>
-<style src="./styles.css"></style>
+<style src="./styles.css" scoped></style>
