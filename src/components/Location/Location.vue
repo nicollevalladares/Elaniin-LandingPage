@@ -11,6 +11,8 @@
                         <a v-on:click="onTabChange('delivery')" class="nav-item nav-link" id="nav-delivery-tab" data-toggle="tab" href="#nav-delivery" role="tab" aria-controls="nav-delivery" aria-selected="false">Domicilio</a>
                     </div>
                 </nav>
+                <!-- TODO: Add search icon -->
+                <input class="form-control" type="search" placeholder="Buscar nombre o dirección" aria-label="Search">
                 <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-takeaway" role="tabpanel" aria-labelledby="nav-takeaway-tab">
                     <LocationCard v-bind:locations="locations" />
