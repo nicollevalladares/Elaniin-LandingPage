@@ -2,6 +2,7 @@
     <div>
        <Adds v-bind:data="data" />
        <About />
+       <Location />
     </div>
 </template>
 

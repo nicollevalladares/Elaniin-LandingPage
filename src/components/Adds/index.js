@@ -1,3 +1,4 @@
+// Import icons 
 import ArrowRight from "../Icons/ArrowRight.vue"
 
 export default {
