@@ -1,8 +1,12 @@
 @media only screen and (min-width: 992px) {
-    .navbar {
+    .header {
         margin-top: 57px;
         margin-left: 101px;
     }
+}
+
+.header {
+    background-color: transparent;
 }
 
 .foodies-link {
@@ -24,7 +28,6 @@
 }
 
 .header-link:after {
-    position: absolute;
     bottom: 0;
     left: 0;
     display: block;
@@ -34,11 +37,11 @@
     content: "";
     transform: scale(0);
     transition: transform .3s cubic-bezier(0.11, 0.7, 0, 1);
-  }
+}
   
-  .header-link:hover:after {
+.header-link:hover:after {
     transform: scale(1);
-  }
+}
 
 .navbar .navbar-collapse .nav-item .nav-link {
     overflow-y: auto;

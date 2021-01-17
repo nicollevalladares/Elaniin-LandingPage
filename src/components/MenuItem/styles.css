@@ -6,9 +6,7 @@
 }
 
 .card-text {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Open Sans Regular';
     font-size: 18px;
     line-height: 25px;
     text-align: left;
@@ -25,9 +23,7 @@
 }
 
 .card-category {
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Open Sans Regular';
     font-size: 18px;
     line-height: 25px;
     color: #78909C;

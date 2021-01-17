@@ -1,10 +1,12 @@
-import { mapState } from "vuex";
+import { mapState } from "vuex"
 import MenuItem from '@/components/MenuItem/MenuItem.vue'
+import ElaniinFilter from '@/components/ElaniinFilter/ElaniinFilter.vue'
 
 export default {
     name: 'Menu',
     components: {
-        MenuItem
+        MenuItem,
+        ElaniinFilter
     },
     async mounted() {
         this.$store.dispatch("getMenuItems");

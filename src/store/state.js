@@ -1,5 +1,6 @@
 export const getDefaultState = () => {
     return {
-        menu: []
+        menu: [],
+        categories: []
     }
 }
