@@ -7,7 +7,7 @@
 
 .header {
     background-color: transparent;
-    position: fixed;
+    position: absolute;
     width: 100%;
 }
 
