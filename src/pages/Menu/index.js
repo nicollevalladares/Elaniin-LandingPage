@@ -1,14 +1,29 @@
 import { mapState } from "vuex"
 import MenuItem from '@/components/MenuItem/MenuItem.vue'
+import Adds from '@/components/Adds/Adds.vue'
 import ElaniinFilter from '@/components/ElaniinFilter/ElaniinFilter.vue'
+import Hamburger from '@/assets/MenuAssets/Hamburger.png'
 
 export default {
     name: 'Menu',
+    data() {
+        return {
+            data: {
+                url: Hamburger,
+                firstText: "Cada sabor es una nueva",
+                underlineText: "experiencia",
+                backgroundColor: 'black',
+                titleColor: 'white'
+            }
+        }
+    },
     components: {
         MenuItem,
+        Adds,
         ElaniinFilter
     },
     async mounted() {
+        this.$store.dispatch("changeHeaderColor", {color: 'white'});
         this.$store.dispatch("getMenuItems");
     },
     computed: {

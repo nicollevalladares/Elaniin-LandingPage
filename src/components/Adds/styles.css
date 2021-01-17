@@ -49,6 +49,10 @@
     height: 500px;
 }
 
+.padding-adds {
+    padding-top: 10rem;
+}
+
 @media only screen and (min-width: 768px) {
     .burger {
         height: 400px;

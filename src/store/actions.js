@@ -10,4 +10,7 @@ export const actions = {
         let categories = await CategoriesAPI.getCategories()
         context.commit('setCategories', categories)
     },
+    async changeHeaderColor(context, {color}) {
+        context.commit('setHeaderColor', color)
+    },
 };

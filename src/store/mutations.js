@@ -5,4 +5,7 @@ export const mutations = {
     setCategories(state, categories) {
         state.categories = [...categories.data]
     },
+    setHeaderColor(state, color) {
+        state.headerColor = color
+    },
 };

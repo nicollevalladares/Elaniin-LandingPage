@@ -1,18 +1,27 @@
 import Adds from "../../components/Adds/Adds.vue"
 import About from "../../components/About/About.vue"
+import Hamburger from '@/assets/AddsAssets/Hamburger.png'
 
 export default {
     name: 'Home',
     data(){
         return{
-            homeData: {
+            data: {
                 description: "Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables.",
-                link: 'Encuéntranos'
+                link: "Encuéntranos",
+                url: Hamburger,
+                firstText: "Un nuevo sabor esta en",
+                underlineText: "la ciudad",
+                backgroundColor: 'white',
+                titleColor: 'black'
             }
         }
     },
     components: {
         Adds,
         About
-    }
+    },
+    async mounted() {
+        this.$store.dispatch("changeHeaderColor", {color: 'black'});
+    },
 }

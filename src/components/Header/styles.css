@@ -7,6 +7,8 @@
 
 .header {
     background-color: transparent;
+    position: fixed;
+    width: 100%;
 }
 
 .foodies-link {
@@ -45,7 +47,6 @@
 
 .navbar .navbar-collapse .nav-item .nav-link {
     overflow-y: auto;
-    color: #000000;
 }
 
 a:hover{
