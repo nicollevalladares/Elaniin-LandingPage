@@ -2,7 +2,7 @@
   <div>
     <Adds v-bind:data="data" />
     <div class="container-fluid-px-2 container-fluid">
-      <ElaniinFilter />
+      <!-- <ElaniinFilter /> -->
       <div class="row">
         <div
           v-for="item of menu"
