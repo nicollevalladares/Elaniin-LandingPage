@@ -1,45 +1,53 @@
 <template>
-  <section id="contact-us" class="comments-section pt-5">
+  <section id="contact-us" class="comments-section py-5">
     <div class="container-fluid">
-      <div class="comments-header m-auto">Cuentanos tu experiencia</div>
-      <div class="comments-description m-auto pt-4">
+      <div class="comments-header m-auto w-50">Cuentanos tu experiencia</div>
+      <div class="comments-description m-auto w-50 py-4">
         Don't miss out on our great offers & Receive deals from all our top
         restaurants via e-mail.
       </div>
       <div class="row">
-        <div class="col-sm-12 col-md-12 col-lg-4">
-          <form>
-            <div class="form-row">
-              <div class="form-group col-lg-6 col-md-12">
-                <label for="name">Nombre y Apellido</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name"
-                  placeholder="John Doe"
-                  v-model="name"
-                />
+        <div class="col-9 mx-auto">
+          <form class="text-right">
+            <div class="row">
+              <div class="col-5">
+                <div class="form-row">
+                  <div class="form-group col-12 text-left">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="name"
+                      placeholder="John Doe"
+                      v-model="name"
+                    />
+                    <label for="name">Nombre y Apellido</label>
+                  </div>
+                  <div class="form-group col-12 text-left">
+                    <input
+                      type="email"
+                      class="form-control"
+                      id="email"
+                      placeholder="j.doe@correo.com"
+                      v-model="email"
+                    />
+                    <label for="email">Correo electrónico</label>
+                  </div>
+                </div>
               </div>
-              <div class="form-group col-lg-6 col-md-12">
-                <label for="message">Mensaje</label>
-                <textarea
-                  class="form-control"
-                  id="message"
-                  rows="3"
-                  v-model="message"
-                ></textarea>
-              </div>
-            </div>
-            <div class="form-group">
-              <div class="form-group col-lg-6 col-md-12">
-                <label for="email">Correo electrónico</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="j.doe@correo.com"
-                  v-model="email"
-                />
+              <div class="col-7">
+                <div class="form-row">
+                  <div class="form-group col-12 text-left">
+                    <textarea
+                      class="form-control"
+                      id="message"
+                      rows="4"
+                      maxlength="256"
+                      resi
+                      v-model="message"
+                    ></textarea>
+                    <label for="message">Mensaje</label>
+                  </div>
+                </div>
               </div>
             </div>
             <button
@@ -51,7 +59,6 @@
             </button>
           </form>
         </div>
-        <div class="col-md-12 col-lg-8" align="right"></div>
       </div>
     </div>
   </section>
