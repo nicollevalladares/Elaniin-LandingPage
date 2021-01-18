@@ -1,7 +1,7 @@
 <template>
   <section id="contact-us" class="comments-section py-5">
     <div class="container-fluid">
-      <div class="comments-header m-auto w-50">Cuentanos tu experiencia</div>
+      <div class="comments-header m-auto w-lg-50 w-md-50">Cuentanos tu experiencia</div>
       <div class="comments-description m-auto w-50 py-4">
         Don't miss out on our great offers & Receive deals from all our top
         restaurants via e-mail.
@@ -10,7 +10,7 @@
         <div class="col-9 mx-auto">
           <form class="text-right">
             <div class="row">
-              <div class="col-5">
+              <div class="col-lg-5 col-md-12 col-sm-12">
                 <div class="form-row">
                   <div class="form-group col-12 text-left">
                     <input
@@ -34,7 +34,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-7">
+              <div class="col-lg-7 col-md-12 col-sm-12">
                 <div class="form-row">
                   <div class="form-group col-12 text-left">
                     <textarea
