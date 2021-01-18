@@ -3,6 +3,7 @@ import Adds from "@/components/Adds/Adds.vue"
 import About from "@/components/About/About.vue"
 import Location from "@/components/Location/Location.vue"
 import Testimonials from "@/components/Testimonials/Testimonials.vue"
+import Comments from "@/components/Comments/Comments.vue"
 
 // Import images from assets
 import Hamburger from '@/assets/AddsAssets/Hamburger.png'
@@ -26,7 +27,8 @@ export default {
         Adds,
         About,
         Location,
-        Testimonials
+        Testimonials,
+        Comments
     },
     async mounted() {
         this.$store.dispatch("changeHeaderColor", {color: 'black'});

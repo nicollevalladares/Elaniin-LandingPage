@@ -1,0 +1,19 @@
+.comments-section {
+    background: #000000;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.comments-header {
+    width: 634px;
+    font-family: 'Druk Text Wide Bold';
+    font-size: 36px;
+    line-height: 36px;
+}
+
+.comments-description {
+    width: 698px;
+    font-family: 'Open Sans Light';
+    font-size: 24px;
+    line-height: 33px;
+}

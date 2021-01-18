@@ -4,6 +4,7 @@
         <About />
         <Location />
         <Testimonials />
+        <Comments />
     </div>
 </template>
 
