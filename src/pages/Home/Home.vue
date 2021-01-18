@@ -5,6 +5,8 @@
     <Location />
     <Testimonials />
     <Comments />
+    <!-- TODO: Benefit apps section -->
+    <Footer />
   </div>
 </template>
 

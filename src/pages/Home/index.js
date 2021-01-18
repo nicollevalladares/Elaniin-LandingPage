@@ -4,6 +4,7 @@ import About from '@/components/About/About.vue'
 import Location from '@/components/Location/Location.vue'
 import Testimonials from '@/components/Testimonials/Testimonials.vue'
 import Comments from '@/components/Comments/Comments.vue'
+import Footer from '@/components/Footer/Footer.vue'
 
 // Import images from assets
 import Hamburger from '@/assets/AddsAssets/Hamburger.png'
@@ -29,7 +30,8 @@ export default {
     About,
     Location,
     Testimonials,
-    Comments
+    Comments,
+    Footer
   },
   async mounted() {
     this.$store.dispatch('changeHeaderColor', { color: 'black' })
