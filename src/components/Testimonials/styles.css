@@ -1,0 +1,25 @@
+
+.testimonial-header {
+    width: 744px;
+    font-family: 'Druk Text Wide Bold';
+    font-size: 36px;
+    text-align: center;
+    color: #000000;
+}
+
+.testimonial-description {
+    width: 549px;
+    font-family: 'Open Sans Regular';
+    font-size: 18px;
+    line-height: 128.91%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.carousel-item {
+    align-items: center;
+}
+
+.carousel-indicators li {
+    background-color: #000000;
+}
