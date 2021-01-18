@@ -10,8 +10,8 @@ import Hamburger from '@/assets/AddsAssets/Hamburger.png'
 
 export default {
     name: 'Home',
-    data(){
-        return{
+    data() {
+        return {
             data: {
                 description: "Estamos a punto de descubrir un mundo lleno de sabores y de emociones inigualables.",
                 link: "Encuéntranos",
@@ -31,6 +31,7 @@ export default {
         Comments
     },
     async mounted() {
-        this.$store.dispatch("changeHeaderColor", {color: 'black'});
+        this.$store.dispatch("changeHeaderColor", { color: 'black' });
+        this.$store.dispatch("changeHeaderBackground", { background: 'white' });
     },
 }

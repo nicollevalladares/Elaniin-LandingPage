@@ -28,7 +28,8 @@ export default {
         ElaniinFilter
     },
     async mounted() {
-        this.$store.dispatch("changeHeaderColor", {color: 'white'});
+        this.$store.dispatch("changeHeaderColor", { color: 'white' });
+        this.$store.dispatch("changeHeaderBackground", { background: 'black' });
         this.$store.dispatch("getMenuItems");
     },
     computed: {

@@ -11,10 +11,13 @@ export const actions = {
         let categories = await CategoriesAPI.getCategories()
         context.commit('setCategories', categories)
     },
-    async changeHeaderColor(context, {color}) {
+    async changeHeaderColor(context, { color }) {
         context.commit('setHeaderColor', color)
     },
-    async getLocations(context, {locationType}) {
+    async changeHeaderBackground(context, { background }) {
+        context.commit('setHeaderBackground', background)
+    },
+    async getLocations(context, { locationType }) {
         let locations = await LocationsAPI.getLocations(locationType)
         context.commit('setLocations', locations)
     },

@@ -32,6 +32,10 @@
     transform: scale(1);
 }
 
+.navbar .navbar-collapse {
+    z-index: 1;
+}
+
 .navbar .navbar-collapse .nav-item .nav-link {
     overflow-y: auto;
 }

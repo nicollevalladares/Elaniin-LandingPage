@@ -3,6 +3,7 @@ export const getDefaultState = () => {
         menu: [],
         categories: [],
         headerColor: 'black',
+        headerBackground: 'white',
         locations: [],
         selectedLocation: ''
     }
