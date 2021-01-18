@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light pt-5 pt-lg-5 pt-md-30 pt-sm-5 pl-lg-6 pl-md-40">
+    <nav class="navbar navbar-expand-lg navbar-light pt-5 pt-lg-5 pt-md-30 pt-sm-5 pl-lg-6 pl-md-40 position-absolute">
         <router-link class="navbar-brand" to="/">
             <span v-bind:style="{ color: headerColor }"  class="nav-link p-0 foodies-link">Foodies</span>
         </router-link>
