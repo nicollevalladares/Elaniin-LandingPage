@@ -1,6 +1,7 @@
 import { MenuAPI } from './api/menu'
 import { CategoriesAPI } from './api/categories'
 import { LocationsAPI } from './api/locations'
+import { CommentsAPI } from './api/comments'
 
 export const actions = {
   async getMenuItems(context) {
@@ -20,5 +21,9 @@ export const actions = {
   async getLocations(context, { locationType }) {
     let locations = await LocationsAPI.getLocations(locationType)
     context.commit('setLocations', locations)
+  },
+  async sendComments(context, { name, email, message }) {
+    let comments = await CommentsAPI.sendComments(name, email, message)
+    console.log(comments)
   }
 }

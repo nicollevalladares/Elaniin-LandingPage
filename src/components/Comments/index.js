@@ -11,8 +11,8 @@ export default {
     sendComments() {
       this.$store.dispatch('sendComments', {
         name: this.name,
-        message: this.message,
-        email: this.email
+        email: this.email,
+        message: this.message
       })
     }
   }
