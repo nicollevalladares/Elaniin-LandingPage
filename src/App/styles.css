@@ -1,147 +1,142 @@
 /* Druk Text Wide Font */
 @font-face {
-    font-family: "Druk Text Wide Bold";
-    src: local("Druk Text Wide Bold"),
-    url(../fonts/DrukTextWide/DrukTextWide-Bold.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Druk Text Wide Bold Italic";
-    src: local("Druk Text Wide Bold Italic"),
-    url(../fonts/DrukTextWide/DrukTextWide-BoldItalic.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Druk Text Wide Heavy";
-    src: local("Druk Text Wide Heavy"),
-    url(../fonts/DrukTextWide/DrukTextWide-Heavy.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Druk Text Wide Heavy Italic";
-    src: local("Druk Text Wide Heavy Italic"),
-    url(../fonts/DrukTextWide/DrukTextWide-HeavyItalic.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Druk Text Wide Medium";
-    src: local("Druk Text Wide Medium"),
-    url(../fonts/DrukTextWide/DrukTextWide-Medium.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Druk Text Wide Medium Italic";
-    src: local("Druk Text Wide Medium Italic"),
-    url(../fonts/DrukTextWide/DrukTextWide-MediumItalic.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Druk Text Wide Super";
-    src: local("Druk Text Wide Super"),
-    url(../fonts/DrukTextWide/DrukTextWide-Super.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Druk Text Wide Super Italic";
-    src: local("Druk Text Wide Super Italic"),
-    url(../fonts/DrukTextWide/DrukTextWide-SuperItalic.ttf) format("truetype");
-  }
-
-  /* Syne Font */
-  @font-face {
-    font-family: "Syne Bold";
-    src: local("Syne Bold"),
-    url(../fonts/Syne/Syne-Bold.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Syne Extra";
-    src: local("Syne Extra"),
-    url(../fonts/Syne/Syne-Extra.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Syne Italic";
-    src: local("Syne Italic"),
-    url(../fonts/Syne/Syne-Italic.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Syne Mono";
-    src: local("Syne Mono"),
-    url(../fonts/Syne/Syne-Mono.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Syne";
-    src: local("Syne"),
-    url(../fonts/Syne/Syne-Regular.ttf) format("truetype");
-  }
-
-  @font-face {
-    font-family: "Syne Variable";
-    src: local("Syne Variable"),
-    url(../fonts/Syne/Syne-variable.ttf) format("truetype");
-  }
-
-  /* Opens Sans Font */
-@font-face {
-  font-family: "Open Sans Bold";
-  src: local("Open Sans Bold"),
-  url(../fonts/OpenSans/OpenSans-Bold.ttf) format("truetype");
+  font-family: 'Druk Text Wide Bold';
+  src: local('Druk Text Wide Bold'),
+    url(../fonts/DrukTextWide/DrukTextWide-Bold.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Bold Italic";
-  src: local("Open Sans Bold Italic"),
-  url(../fonts/OpenSans/OpenSans-BoldItalic.ttf) format("truetype");
+  font-family: 'Druk Text Wide Bold Italic';
+  src: local('Druk Text Wide Bold Italic'),
+    url(../fonts/DrukTextWide/DrukTextWide-BoldItalic.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Extra Bold";
-  src: local("Open Sans Extra Bold"),
-  url(../fonts/OpenSans/OpenSans-ExtraBold.ttf) format("truetype");
+  font-family: 'Druk Text Wide Heavy';
+  src: local('Druk Text Wide Heavy'),
+    url(../fonts/DrukTextWide/DrukTextWide-Heavy.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Extra Bold Italic";
-  src: local("Open Sans Extra Bold Italic"),
-  url(../fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf) format("truetype");
+  font-family: 'Druk Text Wide Heavy Italic';
+  src: local('Druk Text Wide Heavy Italic'),
+    url(../fonts/DrukTextWide/DrukTextWide-HeavyItalic.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Italic";
-  src: local("Open Sans Italic"),
-  url(../fonts/OpenSans/OpenSans-Italic.ttf) format("truetype");
+  font-family: 'Druk Text Wide Medium';
+  src: local('Druk Text Wide Medium'),
+    url(../fonts/DrukTextWide/DrukTextWide-Medium.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Light";
-  src: local("Open Sans Light"),
-  url(../fonts/OpenSans/OpenSans-Light.ttf) format("truetype");
+  font-family: 'Druk Text Wide Medium Italic';
+  src: local('Druk Text Wide Medium Italic'),
+    url(../fonts/DrukTextWide/DrukTextWide-MediumItalic.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Light Italic";
-  src: local("Open Sans Light Italic"),
-  url(../fonts/OpenSans/OpenSans-LightItalic.ttf) format("truetype");
+  font-family: 'Druk Text Wide Super';
+  src: local('Druk Text Wide Super'),
+    url(../fonts/DrukTextWide/DrukTextWide-Super.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Regular";
-  src: local("Open Sans Regular"),
-  url(../fonts/OpenSans/OpenSans-Regular.ttf) format("truetype");
+  font-family: 'Druk Text Wide Super Italic';
+  src: local('Druk Text Wide Super Italic'),
+    url(../fonts/DrukTextWide/DrukTextWide-SuperItalic.ttf) format('truetype');
+}
+
+/* Syne Font */
+@font-face {
+  font-family: 'Syne Bold';
+  src: local('Syne Bold'), url(../fonts/Syne/Syne-Bold.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Semi Bold";
-  src: local("Open Sans Semi Bold"),
-  url(../fonts/OpenSans/OpenSans-SemiBold.ttf) format("truetype");
+  font-family: 'Syne Extra';
+  src: local('Syne Extra'), url(../fonts/Syne/Syne-Extra.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: "Open Sans Semi Bold Italic";
-  src: local("Open Sans Semi Bold Italic"),
-  url(../fonts/OpenSans/OpenSans-SemiBoldItalic.ttf) format("truetype");
+  font-family: 'Syne Italic';
+  src: local('Syne Italic'),
+    url(../fonts/Syne/Syne-Italic.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: 'Syne Mono';
+  src: local('Syne Mono'), url(../fonts/Syne/Syne-Mono.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne';
+  src: local('Syne'), url(../fonts/Syne/Syne-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Syne Variable';
+  src: local('Syne Variable'),
+    url(../fonts/Syne/Syne-variable.ttf) format('truetype');
+}
+
+/* Opens Sans Font */
+@font-face {
+  font-family: 'Open Sans Bold';
+  src: local('Open Sans Bold'),
+    url(../fonts/OpenSans/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Bold Italic';
+  src: local('Open Sans Bold Italic'),
+    url(../fonts/OpenSans/OpenSans-BoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Extra Bold';
+  src: local('Open Sans Extra Bold'),
+    url(../fonts/OpenSans/OpenSans-ExtraBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Extra Bold Italic';
+  src: local('Open Sans Extra Bold Italic'),
+    url(../fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Italic';
+  src: local('Open Sans Italic'),
+    url(../fonts/OpenSans/OpenSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Light';
+  src: local('Open Sans Light'),
+    url(../fonts/OpenSans/OpenSans-Light.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Light Italic';
+  src: local('Open Sans Light Italic'),
+    url(../fonts/OpenSans/OpenSans-LightItalic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Regular';
+  src: local('Open Sans Regular'),
+    url(../fonts/OpenSans/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Semi Bold';
+  src: local('Open Sans Semi Bold'),
+    url(../fonts/OpenSans/OpenSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Open Sans Semi Bold Italic';
+  src: local('Open Sans Semi Bold Italic'),
+    url(../fonts/OpenSans/OpenSans-SemiBoldItalic.ttf) format('truetype');
+}

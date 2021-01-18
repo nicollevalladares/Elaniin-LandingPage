@@ -6,9 +6,9 @@ export const CategoriesAPI = {
   async getCategories() {
     try {
       let response = await axios.get(CATEGORIES_URL)
-      return response.data  
+      return response.data
     } catch (error) {
       return error
     }
   }
-};
+}

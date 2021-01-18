@@ -6,9 +6,9 @@ export const MenuAPI = {
   async getMenuItems() {
     try {
       let response = await axios.get(MENU_URL)
-      return response.data  
+      return response.data
     } catch (error) {
       return error
     }
   }
-};
+}
