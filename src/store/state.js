@@ -5,6 +5,7 @@ export const getDefaultState = () => {
     headerColor: 'black',
     headerBackground: 'white',
     locations: [],
-    selectedLocation: ''
+    selectedLocation: '',
+    menuLinks: ''
   }
 }

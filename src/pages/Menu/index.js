@@ -33,6 +33,6 @@ export default {
     this.$store.dispatch('getMenuItems')
   },
   computed: {
-    ...mapState(['menu'])
+    ...mapState(['menu', 'menuLinks'])
   }
 }

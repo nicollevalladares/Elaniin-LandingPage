@@ -1,5 +1,4 @@
 <!-- PROJECT -->
-<br />
 <p align="center">
   <h3 align="center">Elaniin Landing Page README</h3>
 </p>
@@ -46,7 +45,7 @@ This project is built with the next technologies:
 
 ## Getting Started
 
-Follow the next steps on setting up your project locally..
+Follow the next steps on setting up your project locally.
 
 ### Prerequisites
 

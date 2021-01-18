@@ -11,6 +11,7 @@
         >
           <MenuItem v-bind:item="item" />
         </div>
+        <!-- TODO: Pagination -->
       </div>
     </div>
   </div>
