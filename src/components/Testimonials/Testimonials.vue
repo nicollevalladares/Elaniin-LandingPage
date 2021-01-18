@@ -1,6 +1,6 @@
 <template>
   <!-- TODO: Add height to the section and red shapes -->
-  <section class="pt-5 testimonials align-items-center">
+  <section class="py-cover testimonials align-items-center">
     <div
       id="carouselExampleIndicators"
       class="carousel slide"

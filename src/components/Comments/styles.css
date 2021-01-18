@@ -24,7 +24,7 @@
     border-radius: 4px;
 }
 
-.form-control {
+.comments-control {
     background-color: transparent;
     padding: 22px 26px;
     resize: none;
@@ -39,21 +39,21 @@
     font-family: 'Open Sans Light';
 }
 
-.form-control:focus+label {
+.comments-control:focus+label {
     color: #ffd600;
 }
 
-.form-control:focus::placeholder {
+.comments-control:focus::placeholder {
     color: #ffd600;
 }
 
-.form-control:focus {
+.comments-control:focus {
     background-color: transparent;
     border-color: #ffd600;
     box-shadow: none;
     color: #ffd600;
 }
 
-.form-control::placeholder {
+.comments-control::placeholder {
     color: white;
 }

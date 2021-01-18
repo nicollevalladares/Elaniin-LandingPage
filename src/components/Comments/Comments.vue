@@ -15,7 +15,7 @@
                   <div class="form-group col-12 text-left">
                     <input
                       type="text"
-                      class="form-control"
+                      class="form-control comments-control"
                       id="name"
                       placeholder="John Doe"
                       v-model="name"
@@ -25,7 +25,7 @@
                   <div class="form-group col-12 text-left">
                     <input
                       type="email"
-                      class="form-control"
+                      class="form-control comments-control"
                       id="email"
                       placeholder="j.doe@correo.com"
                       v-model="email"
@@ -38,7 +38,7 @@
                 <div class="form-row">
                   <div class="form-group col-12 text-left">
                     <textarea
-                      class="form-control"
+                      class="form-control comments-control"
                       id="message"
                       rows="4"
                       maxlength="256"
