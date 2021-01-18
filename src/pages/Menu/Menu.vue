@@ -2,8 +2,8 @@
   <div>
     <Adds v-bind:data="data" />
     <div class="container-fluid-px-2 container-fluid">
-      <ElaniinFilter />
-      <div class="row">
+      <!-- <ElaniinFilter /> -->
+      <div class="row pt-5">
         <div
           v-for="item of menu"
           :key="item.id"

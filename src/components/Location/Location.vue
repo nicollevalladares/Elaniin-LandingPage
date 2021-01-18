@@ -60,7 +60,7 @@
           </div>
         </div>
         <div
-          class="locations-section col-md-12 col-lg-8 position-relative d-lg-block d-md-block d-sm-none"
+          class="locations-section col-md-12 col-lg-8 position-relative d-none d-sm-inline-block"
           align="right"
         >
           <iframe

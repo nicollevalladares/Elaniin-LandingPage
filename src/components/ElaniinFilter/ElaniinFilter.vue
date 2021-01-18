@@ -1,5 +1,6 @@
 <template>
-  <div class="container-fluid-px-2 container-fluid">
+<!-- TODO: Add functionality to filters -->
+  <div class="container-fluid-px-2 container-fluid position-absolute w-100 pt-2">
     <form class="row">
       <!-- TODO: Add search icon -->
       <input
@@ -11,7 +12,7 @@
       <div class="col">
         <nav class="navbar navbar-expand-lg navbar-light">
           <button
-            class="navbar-toggler border-0"
+            class="navbar-toggler border-0 collapsed"
             type="button"
             data-toggle="collapse"
             data-target="#filtersCollapse"
@@ -19,7 +20,16 @@
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span
+              class="icon-bar top-bar"
+            ></span>
+            <span
+              class="icon-bar middle-bar"
+            ></span>
+            <span
+              class="icon-bar bottom-bar"
+            ></span>
+            <span class="sr-only">Toggle navigation</span>
           </button>
           <div class="collapse navbar-collapse" id="filtersCollapse">
             <div class="dropdown-divider"></div>
