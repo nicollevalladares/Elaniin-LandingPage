@@ -1,0 +1,11 @@
+.footer-link {
+    font-family: 'Roboto Light';
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(0, 0, 0, 0.4);
+    padding: 2px 6px;
+}
+
+hr {
+    background: #FFC700;
+}

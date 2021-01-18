@@ -1,9 +1,10 @@
 export const mutations = {
   setMenuItems(state, menu) {
-    state.menu = [...menu.data]
+    state.menu = menu.data
+    state.menuLinks = menu.links
   },
   setCategories(state, categories) {
-    state.categories = [...categories.data]
+    state.categories = categories.data
   },
   setHeaderColor(state, color) {
     state.headerColor = color
@@ -12,7 +13,7 @@ export const mutations = {
     state.headerBackground = background
   },
   setLocations(state, locations) {
-    state.locations = [...locations.data]
+    state.locations = locations.data
     state.selectedLocation = state.locations[0]
   }
 }

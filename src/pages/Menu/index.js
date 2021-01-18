@@ -5,6 +5,7 @@ import { mapState } from 'vuex'
 import MenuItem from '@/components/MenuItem/MenuItem.vue'
 import Adds from '@/components/Adds/Adds.vue'
 import ElaniinFilter from '@/components/ElaniinFilter/ElaniinFilter.vue'
+import Footer from '@/components/Footer/Footer.vue'
 
 // Import images from assets
 import Hamburger from '@/assets/MenuAssets/Hamburger.png'
@@ -25,7 +26,8 @@ export default {
   components: {
     MenuItem,
     Adds,
-    ElaniinFilter
+    ElaniinFilter,
+    Footer
   },
   async mounted() {
     this.$store.dispatch('changeHeaderColor', { color: 'white' })
@@ -33,6 +35,6 @@ export default {
     this.$store.dispatch('getMenuItems')
   },
   computed: {
-    ...mapState(['menu'])
+    ...mapState(['menu', 'menuLinks'])
   }
 }

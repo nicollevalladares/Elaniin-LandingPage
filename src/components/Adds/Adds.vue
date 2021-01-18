@@ -13,7 +13,7 @@
           <div v-if="data.description && data.link">
             <p class="description-text">{{ data.description }}</p>
             <!-- TODO: Fix the arrow -->
-            <a class="link-text" href="/">{{ data.link }} <ArrowRight /> </a>
+            <a class="link-text" href="#locations">{{ data.link }} <ArrowRight /> </a>
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-6 order-first order-md-last">

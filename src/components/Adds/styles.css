@@ -44,6 +44,10 @@
   text-decoration: none;
 }
 
+.link-text:hover {
+  color: #000000;
+}
+
 /* .adds-container {
     padding-left: 101px;
     padding-right: 101px;
