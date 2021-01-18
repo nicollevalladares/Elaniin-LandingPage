@@ -25,7 +25,9 @@
               consequat culpa consectetur Lorem. Reprehenderit dolore culpa
               irure eiusmod minim occaecat et id minim ullamco.
             </p>
-            <a class="link-text" href="#contact-us">Contáctanos <ArrowRight /> </a>
+            <a class="link-text" href="#contact-us"
+              >Contáctanos <ArrowRight />
+            </a>
           </div>
         </div>
       </div>

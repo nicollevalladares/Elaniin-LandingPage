@@ -1,59 +1,59 @@
 .comments-section {
-    background: #000000;
-    text-align: center;
-    color: #ffffff;
+  background: #000000;
+  text-align: center;
+  color: #ffffff;
 }
 
 .comments-header {
-    font-family: 'Druk Text Wide Bold';
-    font-size: 36px;
-    line-height: 36px;
+  font-family: 'Druk Text Wide Bold';
+  font-size: 36px;
+  line-height: 36px;
 }
 
 .comments-description {
-    font-family: 'Open Sans Light';
-    font-size: 24px;
-    line-height: 33px;
+  font-family: 'Open Sans Light';
+  font-size: 24px;
+  line-height: 33px;
 }
 
 .btn-comments {
-    background: #FFD600;
-    border-radius: 4px;
-    font-family: 'Open Sans Bold';
-    padding: 14px 20px;
-    border-radius: 4px;
+  background: #ffd600;
+  border-radius: 4px;
+  font-family: 'Open Sans Bold';
+  padding: 14px 20px;
+  border-radius: 4px;
 }
 
 .comments-control {
-    background-color: transparent;
-    padding: 22px 26px;
-    resize: none;
+  background-color: transparent;
+  padding: 22px 26px;
+  resize: none;
 }
 
 .form-group {
-    display: flex;
-    flex-direction: column-reverse;
+  display: flex;
+  flex-direction: column-reverse;
 }
 
 .form-group label {
-    font-family: 'Open Sans Light';
+  font-family: 'Open Sans Light';
 }
 
-.comments-control:focus+label {
-    color: #ffd600;
+.comments-control:focus + label {
+  color: #ffd600;
 }
 
 .comments-control:focus::placeholder {
-    color: #ffd600;
+  color: #ffd600;
 }
 
 .comments-control:focus {
-    background-color: transparent;
-    border-color: #ffd600;
-    box-shadow: none;
-    color: #ffd600;
+  background-color: transparent;
+  border-color: #ffd600;
+  box-shadow: none;
+  color: #ffd600;
 }
 
 .comments-control::placeholder {
-    color: white;
+  color: white;
 }

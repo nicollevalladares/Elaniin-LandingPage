@@ -1,6 +1,6 @@
 .text {
   color: #000000;
-  font-family: "Druk Text Wide Bold";
+  font-family: 'Druk Text Wide Bold';
   font-size: 65px;
   line-height: 1;
 }
@@ -18,7 +18,7 @@
   transition: all 0.25s calc(0.25s + var(--char-index) * 0.1s);
 }
 
-.text--folding [data-scroll="out"] .char {
+.text--folding [data-scroll='out'] .char {
   -webkit-transform: rotateX(90deg);
   transform: rotateX(90deg);
   -webkit-transform-origin: bottom;
@@ -30,7 +30,7 @@
 }
 
 .description-text {
-  font-family: "Open Sans Regular";
+  font-family: 'Open Sans Regular';
   font-size: 18px;
   line-height: 25px;
   color: rgba(0, 0, 0, 0.4);
@@ -38,7 +38,7 @@
 }
 
 .link-text {
-  font-family: "Syne Bold";
+  font-family: 'Syne Bold';
   font-size: 22px;
   color: #000000;
   text-decoration: none;
