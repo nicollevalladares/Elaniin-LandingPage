@@ -1,43 +1,43 @@
 .card-title {
-    font-family: 'Syne Bold';
-    font-size: 22px;
-    line-height: 26px;
-    text-align: left;
+  font-family: "Syne Bold";
+  font-size: 22px;
+  line-height: 26px;
+  text-align: left;
 }
 
 .card-text {
-    font-family: 'Open Sans Regular';
-    font-size: 18px;
-    line-height: 25px;
-    text-align: left;
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  line-height: 25px;
+  text-align: left;
 }
 
 .card-img-top {
-    border-radius: 10px;
+  border-radius: 10px;
 }
 
 /* TODO: Add the border 0 in the card hover for the image */
 .card-img-top:hover {
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
 }
 
 .card-category {
-    font-family: 'Open Sans Regular';
-    font-size: 18px;
-    line-height: 25px;
-    color: #78909C;
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  line-height: 25px;
+  color: #78909c;
 }
 
 .card-price {
-    background-color: #FFD600;
-    font-family: 'Druk Text Wide Bold';
-    font-size: 16px;
-    line-height: 16px;
-    border-radius: 8px;
+  background-color: #ffd600;
+  font-family: "Druk Text Wide Bold";
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 8px;
 }
 
-.card:hover{
-    transform: scale(1.05);
-    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);  
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
 }

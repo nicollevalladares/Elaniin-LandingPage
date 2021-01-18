@@ -1,4 +1,4 @@
 export default {
-    name: "MenuItem",
-    props: ['item'] 
-}
+  name: "MenuItem",
+  props: ["item"],
+};

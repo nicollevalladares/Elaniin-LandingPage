@@ -1,28 +1,27 @@
 .location-name {
-    font-family: 'Syne Bold';
-    font-size: 20px;
-    line-height: 24px;
-    margin-left: 22px;
-    margin-top: 10px;
+  font-family: "Syne Bold";
+  font-size: 20px;
+  line-height: 24px;
+  margin-left: 22px;
+  margin-top: 10px;
 }
 
 .location-description {
-    font-family: 'Open Sans Regular';
-    font-size: 16px;
-    line-height: 22px;
-    margin-left: 22px;
-    margin-bottom: 0;
+  font-family: "Open Sans Regular";
+  font-size: 16px;
+  line-height: 22px;
+  margin-left: 22px;
+  margin-bottom: 0;
 }
 
 .location-card {
-    margin: 10px;
-    padding: 15px 0px;
+  margin: 10px;
+  padding: 15px 0px;
 }
 
 .selected-location {
-    background: #FFF1BF;
+  background: #fff1bf;
 }
-
 
 /* @media only screen and (min-width: 992px) {
     .location-card {

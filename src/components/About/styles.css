@@ -1,58 +1,58 @@
 .foodies-text {
-    font-family: 'Syne Bold';
-    font-size: 22px;
-    color: #000000;
+  font-family: "Syne Bold";
+  font-size: 22px;
+  color: #000000;
 }
 
 .bottom-right {
-    bottom: 40px;
-    right: 40px;
+  bottom: 40px;
+  right: 40px;
 }
 
 .cover-photo {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 @media only screen and (max-width: 768px) {
-    .cover-photo {
-        height: 550px;
-    }
+  .cover-photo {
+    height: 550px;
+  }
 }
 
 .about-title {
-    color: #ffffff;
-    font-family: 'Druk Text Wide Bold';
-    font-size: 50px;
-    line-height: 1;
-    text-align: right;
+  color: #ffffff;
+  font-family: "Druk Text Wide Bold";
+  font-size: 50px;
+  line-height: 1;
+  text-align: right;
 }
 
 @media only screen and (max-device-width: 768px) {
-    .about-title {
-        font-size: 41px;
-    }
-    .bottom-right {
-        bottom: 40px;
-        right: 20px;
-    }
+  .about-title {
+    font-size: 41px;
+  }
+  .bottom-right {
+    bottom: 40px;
+    right: 20px;
+  }
 }
 
 .yellow {
-    color: #FFD600;
+  color: #ffd600;
 }
 
 .about-background {
-    background-image: url("../../assets/AboutAssets/rope.svg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: center;
+  background-image: url("../../assets/AboutAssets/rope.svg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
 }
 
 .about-description {
-    font-family: 'Open Sans Regular';
-    font-size: 18px;
-    color: rgba(0, 0, 0, 0.4);
-    margin-top: 21px;
+  font-family: "Open Sans Regular";
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4);
+  margin-top: 21px;
 }
