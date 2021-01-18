@@ -1,21 +1,5 @@
 @import "bootstrap/scss/_functions.scss";
 @import "bootstrap/scss/_variables.scss";
-$spacers: map-merge(
-  (
-    0: 0,
-    1: ($spacer * .25),
-    2: ($spacer * .5),
-    3: $spacer,
-    4: ($spacer * 1.5),
-    5: ($spacer * 3),
-    6: ($spacer * 6),
-    30: 30px,
-    40: 40px,
-    80: 80px,
-    adds: 100px,
-  ),
-  $spacers
-);
+$spacers: map-merge( ( 0: 0, 1: ($spacer * .25), 2: ($spacer * .5), 3: $spacer, 4: ($spacer * 1.5), 5: ($spacer * 3), 6: ($spacer * 6), 30: 30px, 40: 40px, 80: 80px, cover: 20vh, adds: 100px, ), $spacers);
 $input-btn-focus-width: 0;
-
 @import "bootstrap/scss/bootstrap.scss";

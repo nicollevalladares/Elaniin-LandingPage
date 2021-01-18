@@ -1,5 +1,5 @@
 <template>
-    <section v-bind:style="{ background: data.backgroundColor }" class="py-80">
+    <section v-bind:style="{ background: data.backgroundColor }" class="py-cover">
         <!-- TODO: Add yellow shape -->
         <div class="container-fluid px-4 px-lg-6 px-md-40">
             <div class="row align-items-center">

@@ -1,11 +1,11 @@
 .text {
     color: #000000;
     font-family: 'Druk Text Wide Bold';
-    font-size: 35px;
+    font-size: 65px;
     line-height: 1;
 }
 
-@media only screen and (min-width: 768px), screen and (max-width: 992px) {
+@media only screen and (max-device-width: 768px) {
     .text {
         font-size: 45px;
     }
@@ -44,15 +44,18 @@
     text-decoration: none;
 }
 
+
 /* .adds-container {
     padding-left: 101px;
     padding-right: 101px;
 } */
 
+
 /* .yellow-shape {
     top: -285px;
     right: 0;
 } */
+
 
 /* @media only screen and (max-width: 992px) {
     .yellow-shape {
