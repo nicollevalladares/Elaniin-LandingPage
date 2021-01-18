@@ -1,5 +1,5 @@
 .foodies-text {
-  font-family: "Syne Bold";
+  font-family: 'Syne Bold';
   font-size: 22px;
   color: #000000;
 }
@@ -23,7 +23,7 @@
 
 .about-title {
   color: #ffffff;
-  font-family: "Druk Text Wide Bold";
+  font-family: 'Druk Text Wide Bold';
   font-size: 50px;
   line-height: 1;
   text-align: right;
@@ -44,14 +44,14 @@
 }
 
 .about-background {
-  background-image: url("../../assets/AboutAssets/rope.svg");
+  background-image: url('../../assets/AboutAssets/rope.svg');
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
 }
 
 .about-description {
-  font-family: "Open Sans Regular";
+  font-family: 'Open Sans Regular';
   font-size: 18px;
   color: rgba(0, 0, 0, 0.4);
   margin-top: 21px;

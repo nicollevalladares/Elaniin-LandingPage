@@ -1,23 +1,23 @@
-import Vue from "vue";
-import VueRouter from "vue-router";
+import Vue from 'vue'
+import VueRouter from 'vue-router'
 // Import pages
-import Menu from "./pages/Menu/Menu.vue";
-import Home from "./pages/Home/Home.vue";
+import Menu from './pages/Menu/Menu.vue'
+import Home from './pages/Home/Home.vue'
 
-Vue.use(VueRouter);
+Vue.use(VueRouter)
 
 const routes = [
-  { path: "/", component: Home },
-  { path: "/menu", component: Menu },
-];
+  { path: '/', component: Home },
+  { path: '/menu', component: Menu }
+]
 
 export const router = new VueRouter({
-  mode: "history",
-  routes,
-});
+  mode: 'history',
+  routes
+})
 
 router.beforeEach((to, from, next) => {
-  next();
-});
+  next()
+})
 
-export default router;
+export default router

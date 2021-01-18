@@ -1,9 +1,9 @@
 // Import icons
-import ArrowRight from "../Icons/ArrowRight.vue";
+import ArrowRight from '../Icons/ArrowRight.vue'
 
 export default {
-  name: "About",
+  name: 'About',
   components: {
-    ArrowRight,
-  },
-};
+    ArrowRight
+  }
+}

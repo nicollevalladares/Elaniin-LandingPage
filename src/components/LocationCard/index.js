@@ -1,15 +1,15 @@
 export default {
-  name: "LocationCard",
-  props: ["locations"],
+  name: 'LocationCard',
+  props: ['locations'],
   data() {
     return {
-      selected: 1,
-    };
+      selected: 1
+    }
   },
   methods: {
     selectedCard(location) {
-      this.selected = location.id;
-      this.$store.state.selectedLocation = location;
-    },
-  },
-};
+      this.selected = location.id
+      this.$store.state.selectedLocation = location
+    }
+  }
+}

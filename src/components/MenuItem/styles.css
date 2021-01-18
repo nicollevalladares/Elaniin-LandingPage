@@ -1,12 +1,12 @@
 .card-title {
-  font-family: "Syne Bold";
+  font-family: 'Syne Bold';
   font-size: 22px;
   line-height: 26px;
   text-align: left;
 }
 
 .card-text {
-  font-family: "Open Sans Regular";
+  font-family: 'Open Sans Regular';
   font-size: 18px;
   line-height: 25px;
   text-align: left;
@@ -23,7 +23,7 @@
 }
 
 .card-category {
-  font-family: "Open Sans Regular";
+  font-family: 'Open Sans Regular';
   font-size: 18px;
   line-height: 25px;
   color: #78909c;
@@ -31,7 +31,7 @@
 
 .card-price {
   background-color: #ffd600;
-  font-family: "Druk Text Wide Bold";
+  font-family: 'Druk Text Wide Bold';
   font-size: 16px;
   line-height: 16px;
   border-radius: 8px;

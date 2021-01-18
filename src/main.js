@@ -5,9 +5,9 @@ import axios from 'axios'
 import VueRouter from 'vue-router'
 // import 'bootstrap/scss/bootstrap.scss';
 import './App/custom.scss'
-import 'jquery';
-import 'popper.js';
-import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'jquery'
+import 'popper.js'
+import 'bootstrap/dist/js/bootstrap.bundle.min'
 
 import { store } from './store'
 import { router } from './router'

@@ -1,9 +1,9 @@
 // Import mapState for global variables in state
-import { mapState } from "vuex";
+import { mapState } from 'vuex'
 
 export default {
-  name: "Header",
+  name: 'Header',
   computed: {
-    ...mapState(["headerColor", "headerBackground"]),
-  },
-};
+    ...mapState(['headerColor', 'headerBackground'])
+  }
+}

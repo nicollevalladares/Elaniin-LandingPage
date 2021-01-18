@@ -25,6 +25,6 @@
 
 <script>
 export default {
-  name: "ArrowRight",
-};
+  name: 'ArrowRight'
+}
 </script>

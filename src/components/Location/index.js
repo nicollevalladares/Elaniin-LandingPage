@@ -1,23 +1,23 @@
 // Import mapState for global variables in state
-import { mapState } from "vuex";
+import { mapState } from 'vuex'
 
 // Import components
-import LocationCard from "@/components/LocationCard/LocationCard.vue";
+import LocationCard from '@/components/LocationCard/LocationCard.vue'
 
 export default {
-  name: "Location",
+  name: 'Location',
   components: {
-    LocationCard,
+    LocationCard
   },
   methods: {
     onTabChange(locationType) {
-      this.$store.dispatch("getLocations", { locationType });
-    },
+      this.$store.dispatch('getLocations', { locationType })
+    }
   },
   async created() {
-    this.$store.dispatch("getLocations", { locationType: "takeaway" });
+    this.$store.dispatch('getLocations', { locationType: 'takeaway' })
   },
   computed: {
-    ...mapState(["locations", "selectedLocation"]),
-  },
-};
+    ...mapState(['locations', 'selectedLocation'])
+  }
+}
