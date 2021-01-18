@@ -63,7 +63,7 @@ This is an example of how to list things you need to use the software and how to
 
 ### Installation
 
-1. Clone the repo
+1. Clone the repo (choose one)
     - https
    ```sh
    git clone https://github.com/your_username_/Elaniin-LandingPage.git
@@ -102,6 +102,8 @@ Nicolle Valladares - [LinkedIn](https://www.linkedin.com/in/andrea-nicolle-valla
 
 
 <!-- DEPLOYMENT -->
+
+## Deployment
 
 This project is deploy in heroku
 
